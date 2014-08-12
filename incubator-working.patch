@@ -1,0 +1,26 @@
+diff --git a/drupal-org.make b/drupal-org.make
+index d1be084..bac621d 100755
+--- a/drupal-org.make
++++ b/drupal-org.make
+@@ -54,7 +54,9 @@ projects[plup] = 1.0-alpha1
+ projects[imagecache_actions] = 1.4
+ 
+ projects[location] = 3.3
+-projects[location_chooser] = 1.4
++projects[location_chooser][download][type] = git
++projects[location_chooser][download][url] = git@git.drupal.org:project/location_chooser.git
++projects[location_chooser][download][branch] = 7.x-1.x
+ projects[openlayers] = 2.0-beta9
+ projects[geophp] = 1.7
+ projects[proj4js] = 1.2
+@@ -76,7 +78,9 @@ projects[realname] = 1.2
+ projects[wysiwyg] = 2.2
+ 
+ projects[skinr] = 2.0
+-projects[skinr_lite] = 1.0-beta1
++projects[skinr_lite][download][type] = git
++projects[skinr_lite][download][url] = git@git.drupal.org:project/skinr_lite.git
++projects[skinr_lite][download][branch] = 7.x-1.x
+ 
+ projects[workbench] = 1.2
+ projects[workbench_access] = 1.2
