@@ -5,7 +5,7 @@ index d1be084..bac621d 100755
 @@ -54,7 +54,9 @@ projects[plup] = 1.0-alpha1
  projects[imagecache_actions] = 1.4
  
- projects[location] = 3.3
+ projects[location] = 3.4
 -projects[location_chooser] = 1.4
 +projects[location_chooser][download][type] = git
 +projects[location_chooser][download][url] = git@git.drupal.org:project/location_chooser.git
